@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 716 649">
+  <defs>
+    <linearGradient id="linear-gradient" x1="42.06" y1="433.89" x2="496.83" y2="433.89" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.03" stop-color="#e9ebfd"/>
+      <stop offset="0.09" stop-color="#c9cefa"/>
+      <stop offset="0.16" stop-color="#aeb5f8"/>
+      <stop offset="0.24" stop-color="#98a0f5"/>
+      <stop offset="0.33" stop-color="#8791f4"/>
+      <stop offset="0.44" stop-color="#7b86f3"/>
+      <stop offset="0.59" stop-color="#7480f2"/>
+      <stop offset="1" stop-color="#727ef2"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="181.89" y1="409.89" x2="391" y2="409.89" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.08" stop-color="#fbfbfb"/>
+      <stop offset="0.33" stop-color="#f4f4f4"/>
+      <stop offset="1" stop-color="#f2f2f2"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="47.61" y1="395.81" x2="502.38" y2="395.81" gradientTransform="translate(221.77 856.04) rotate(-120)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.04" stop-color="#ebf4e0"/>
+      <stop offset="0.09" stop-color="#d4e8bb"/>
+      <stop offset="0.15" stop-color="#c0dd9a"/>
+      <stop offset="0.21" stop-color="#afd37f"/>
+      <stop offset="0.28" stop-color="#a1cc69"/>
+      <stop offset="0.37" stop-color="#96c658"/>
+      <stop offset="0.47" stop-color="#8ec24c"/>
+      <stop offset="0.61" stop-color="#8ac045"/>
+      <stop offset="1" stop-color="#89bf43"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="82.04" y1="424.36" x2="536.8" y2="424.36" gradientTransform="translate(852.23 235.96) rotate(120)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.03" stop-color="#f3ebf4"/>
+      <stop offset="0.08" stop-color="#dec6e0"/>
+      <stop offset="0.14" stop-color="#cba5ce"/>
+      <stop offset="0.2" stop-color="#bb8abf"/>
+      <stop offset="0.27" stop-color="#ae74b3"/>
+      <stop offset="0.36" stop-color="#a463a9"/>
+      <stop offset="0.46" stop-color="#9d57a3"/>
+      <stop offset="0.61" stop-color="#99509f"/>
+      <stop offset="1" stop-color="#984e9e"/>
+    </linearGradient>
+  </defs>
+  <polygon fill="url(#linear-gradient)" points="42.06 601.54 478.96 601.54 496.83 571.44 108.84 571.44 260.28 309.5 235.35 266.23 42.06 601.54"/>
+  <polygon fill="url(#linear-gradient-2)" points="181.89 486.98 382.78 486.98 391 473.14 212.6 473.14 282.23 352.69 270.77 332.8 181.89 486.98"/>
+  <polygon fill="url(#linear-gradient-3)" points="685.93 533.07 467.49 154.71 432.49 154.28 626.48 490.29 323.91 490.12 298.9 533.34 685.93 533.07"/>
+  <polygon fill="url(#linear-gradient-4)" points="298.51 11 80.07 389.36 97.2 419.89 291.19 83.88 442.33 346 492.26 346.05 298.51 11"/>
+  <text x="269.71" y="442.22" font-size="90" font-family="Arial, sans-serif" font-weight="bold" fill="#1a1a1a">M</text>
+</svg>
