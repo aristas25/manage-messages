@@ -52,10 +52,10 @@ export default function Web() {
 
   // Logos de clientes de ejemplo (puedes reemplazarlos después)
   const clientLogos = [
-    { name: 'Binapsis', logo: '	https://www.binapsis-software.com/logo-binapsis.svg' },
-    { name: 'Manicurias', logo: 'https://manicura-5083fd69e6f3.herokuapp.com/logo-manicura.svg' },
-    { name: 'Peluquerías', logo: 'https://peluca-79e344313ea6.herokuapp.com/logo-peluca.svg' },
-    { name: 'Mascotas', logo: 'https://mascotas-b555111cf1f4.herokuapp.com/logo-mascotas.svg' },
+    { name: 'Binapsis', logo: '	https://www.binapsis-software.com/logo-binapsis.svg', link: 'https://www.binapsis-software.com' },
+    { name: 'Manicurias', logo: 'https://manicura-5083fd69e6f3.herokuapp.com/logo-manicura.svg', link: 'https://manicura-5083fd69e6f3.herokuapp.com' },
+    { name: 'Peluquerías', logo: 'https://peluca-79e344313ea6.herokuapp.com/logo-peluca.svg', link: 'https://peluca-79e344313ea6.herokuapp.com' },
+    { name: 'Mascotas', logo: 'https://mascotas-b555111cf1f4.herokuapp.com/logo-mascotas.svg', link: 'https://mascotas-b555111cf1f4.herokuapp.com' },
   ];
 
   useEffect(() => {
@@ -253,7 +253,12 @@ export default function Web() {
                   key={index}
                   className="h-[200px] flex items-center justify-center"
                 >
-                  <div className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow border border-slate-200 w-full h-full flex flex-col items-center justify-center">
+                  <a
+                    href={client.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow border border-slate-200 w-full h-full flex flex-col items-center justify-center cursor-pointer"
+                  >
                     <img
                       src={client.logo}
                       alt={client.name}
@@ -262,7 +267,7 @@ export default function Web() {
                     <p className="text-sm font-medium text-slate-700 text-center mt-2">
                       {client.name}
                     </p>
-                  </div>
+                  </a>
                 </div>
               ))}
             </div>
