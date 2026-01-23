@@ -240,14 +240,14 @@ export default function Web() {
       {/* Nuestros Clientes */}
       <section id="clientes" className="py-16 bg-slate-50 border-y border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
+          <div className="text-center mb-8 md:mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
               Nuestros clientes
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-slate-700 to-slate-900 mx-auto rounded-full"></div>
           </div>
-          <div className="h-[200px] flex items-center justify-center">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-5xl mx-auto">
+          <div className="min-h-[200px] flex items-center justify-center mt-8 md:mt-0">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-5xl mx-auto w-full">
               {clientLogos.slice(0, 4).map((client, index) => (
                 <div
                   key={index}
