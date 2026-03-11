@@ -405,6 +405,21 @@ export default function Web() {
               &copy; {new Date().getFullYear()} {config.brand}. Todos los derechos reservados.
             </p>
           </div>
+          <div className="mt-8 pt-8 border-t border-slate-700 flex justify-center items-center">
+            <a
+              href={`https://dosmil12.com/?utm_source=${encodeURIComponent(config.brand)}&utm_medium=footer&utm_campaign=powered_by`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-slate-400 hover:text-white transition-colors"
+            >
+              <span className="text-xs">Powered by</span>
+              <img
+                src={process.env.PUBLIC_URL + '/logo-dosmil12.png'}
+                alt="dosmil12.com"
+                className="h-5 w-auto object-contain"
+              />
+            </a>
+          </div>
         </div>
       </footer>
     </main>
